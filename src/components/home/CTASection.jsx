@@ -12,7 +12,7 @@ export default function CTASection() {
           backgroundSize: '400px',
           backgroundRepeat: 'repeat',
           filter: 'grayscale(1) brightness(0.5)',
-          opacity: 0.15,
+          opacity: 0.4,
         }}
       />
 
