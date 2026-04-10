@@ -126,7 +126,7 @@ export default function HowItWorks() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/1a4e4043a_generated_image.png')`,
+          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/bbb4af6ab_generated_image.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'top center',
         }}
