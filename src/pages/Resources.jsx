@@ -8,7 +8,16 @@ import { motion } from "framer-motion";
 export default function Resources() {
   return (
     <>
-      <section className="pt-32 pb-20 lg:pt-40 lg:pb-28 bg-secondary">
+      <section className="pt-32 pb-20 lg:pt-40 lg:pb-28 bg-secondary relative overflow-hidden">
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/191629ec4_intricate-geometric-pattern-stockcake.jpg')`,
+            backgroundSize: '400px',
+            backgroundRepeat: 'repeat',
+            opacity: 0.02,
+          }}
+        />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Resources for Parents"
