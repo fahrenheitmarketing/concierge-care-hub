@@ -57,8 +57,8 @@ export default function About() {
               transition={{ delay: 0.2 }}
             >
               <img
-                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/8678719b7_generated_8ace77b2.png"
-                alt="Dr. Saper - Board Certified Pediatrician"
+                src="https://conciergepediatricsfl.com/wp-content/uploads/bb-plugin/cache/attachment-square-5a9ffb62bd005a7c6fb2504ceaf4620b-oshvpy8192kd.jpg"
+                alt="Dr. Patricia Florentino Pedraza, MD FAAP"
                 className="rounded-2xl shadow-xl w-full"
               />
             </motion.div>
@@ -70,32 +70,23 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Meet Your Pediatrician"
-            title="Dr. Saper"
-            description="Board-certified pediatrician with over 15 years of experience caring for children in South Florida."
+            title="Dr. Patricia Florentino Pedraza, MD FAAP"
+            description="Board-certified pediatrician dedicated to providing quality, relationship-based care to children and families in South Florida."
           />
 
           <div className="bg-card rounded-2xl border border-border p-8 lg:p-12">
             <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-4">
               <p>
-                Dr. Saper founded Concierge Pediatrics of Florida with a
-                mission to restore the doctor-patient relationship that modern
-                medicine has lost. After years in traditional practice, he saw
-                firsthand how the system failed families — rushed appointments,
-                overwhelmed staff, and children who deserved more.
+                Dr. Patricia Florentino Pedraza is a South Florida native and a skilled board-certified pediatrician dedicated to providing quality pediatric care. She obtained her medical degree from the Universidad Iberoamericana (UNIBE) in Santo Domingo, Dominican Republic, and completed her pediatric residency at San Juan City Hospital in San Juan, Puerto Rico.
               </p>
               <p>
-                Today, Dr. Saper limits his practice to a small number of
-                families, giving each one the time, attention, and access they
-                deserve. He believes that when a pediatrician truly knows a
-                child — their personality, their history, their family — the
-                quality of care is transformed.
+                She has been awarded the Certificate of Recognition for Excellence in Academic and Clinical Skills in the Neonatal Intensive Care Unit. Dr. Florentino Pedraza has been practicing pediatrics in South Florida since 2021.
               </p>
               <p>
-                Dr. Saper is board-certified by the American Board of
-                Pediatrics and holds hospital privileges at leading Miami
-                healthcare facilities. He is committed to evidence-based
-                medicine, continuous education, and providing the kind of care
-                he would want for his own family.
+                Dr. Florentino Pedraza is active in the community and has contributed her knowledge to local non-profit organizations in South Florida, spreading awareness in underserved communities about the importance of STEM education. She is passionate about patient education and driven by the bonds she builds with her patients in protecting their wellness over the course of their lives.
+              </p>
+              <p>
+                Dr. Florentino Pedraza is married with three children. She enjoys spending time with family and friends, gardening, biking, and baking in her free time.
               </p>
             </div>
           </div>
