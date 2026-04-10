@@ -165,33 +165,35 @@ export default function Membership() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-28 text-center relative overflow-hidden" style={{ backgroundColor: 'hsl(79 58% 35%)' }}>
+      <section className="py-20 lg:py-28 relative overflow-hidden" style={{ backgroundColor: 'hsl(79 58% 35%)' }}>
         <div
           className="absolute inset-0"
           style={{
             backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/ccf107776_generated_image.png')`,
             backgroundSize: 'cover',
-            backgroundPosition: '70% 20%',
+            backgroundPosition: '80% 20%',
           }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
-        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6">
-            Spots Are Limited by Design
-          </h2>
-          <p className="text-lg text-primary-foreground/75 mb-10">
-            We intentionally limit our families so every child gets the
-            attention they deserve. Don't wait until spots fill up.
-          </p>
-          <Link to="/contact">
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-8 h-14 text-base font-medium gap-2"
-            >
-              Schedule Your Free Consultation
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </Link>
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-lg">
+            <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6">
+              Spots Are Limited by Design
+            </h2>
+            <p className="text-lg text-primary-foreground/75 mb-10">
+              We intentionally limit our families so every child gets the
+              attention they deserve. Don't wait until spots fill up.
+            </p>
+            <Link to="/contact">
+              <Button
+                size="lg"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-8 h-14 text-base font-medium gap-2"
+              >
+                Schedule Your Free Consultation
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
     </>
