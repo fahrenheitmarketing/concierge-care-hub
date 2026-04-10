@@ -3,7 +3,17 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-background/80">
+    <footer className="bg-foreground text-background/80 relative overflow-hidden">
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/17e869947_patterns.png')`,
+          backgroundSize: '400px',
+          backgroundRepeat: 'repeat',
+          filter: 'invert(1)',
+          opacity: 0.2,
+        }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
