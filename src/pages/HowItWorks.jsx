@@ -133,10 +133,10 @@ export default function HowItWorks() {
       />
       <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6">
+        <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
           Ready to See the Difference?
           </h2>
-          <p className="text-lg text-primary-foreground/75 mb-10">
+          <p className="text-lg text-primary-foreground/75 mb-10" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.4)' }}>
             Your free consultation is just a click away. No commitment. Just a
             conversation about what's best for your child.
           </p>

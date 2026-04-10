@@ -17,10 +17,10 @@ export default function CTASection() {
 
 
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-primary-foreground mb-6">
+        <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-primary-foreground mb-6" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
           Your Child Deserves More Than Average Care
         </h2>
-        <p className="text-lg text-primary-foreground/75 leading-relaxed mb-10 max-w-2xl mx-auto">
+        <p className="text-lg text-primary-foreground/75 leading-relaxed mb-10 max-w-2xl mx-auto" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.4)' }}>
           Membership spots are limited to ensure every family gets the attention
           they deserve. Schedule a free consultation to learn how concierge
           pediatrics can work for your family.
