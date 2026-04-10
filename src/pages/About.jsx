@@ -135,6 +135,7 @@ export default function About() {
             src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/ff0a23258_Gemini_Generated_Image_5p0f0w5p0f0w5p0f.png"
             alt="Dr. Sarah Johnson in pediatric office"
             className="w-full h-full object-cover"
+            style={{ transform: 'scale(0.9)', transformOrigin: 'center' }}
           />
           <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
         </div>
