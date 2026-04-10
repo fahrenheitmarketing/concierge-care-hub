@@ -39,13 +39,12 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="font-heading text-xl lg:text-2xl text-foreground">
-              Concierge Pediatrics
-            </span>
-            <span className="text-xs text-muted-foreground font-body hidden sm:block">
-              of Florida
-            </span>
+          <Link to="/" className="flex items-center">
+            <img
+              src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/8102bbb5f_concierge-pediatrics-logo-768x282.png"
+              alt="Concierge Pediatrics"
+              className="h-10 lg:h-12 w-auto"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
