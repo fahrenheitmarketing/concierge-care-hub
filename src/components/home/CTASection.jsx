@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CTASection() {
   return (
-    <section className="py-20 lg:py-28 bg-primary relative overflow-hidden">
+    <section className="py-20 lg:py-28 relative overflow-hidden" style={{ backgroundColor: '#6b8e23' }}>
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-background rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
