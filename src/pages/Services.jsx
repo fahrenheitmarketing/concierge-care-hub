@@ -137,7 +137,7 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="/__generating__/img_5b2eac88ff57.png"
+                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/646136eb6_generated_f1d8e74e.png"
                 alt="Parent texting their pediatrician at night"
                 className="rounded-2xl shadow-xl w-full"
               />

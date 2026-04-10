@@ -57,7 +57,7 @@ export default function About() {
               transition={{ delay: 0.2 }}
             >
               <img
-                src="/__generating__/img_6cd5071fa1ab.png"
+                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/8678719b7_generated_8ace77b2.png"
                 alt="Dr. Saper - Board Certified Pediatrician"
                 className="rounded-2xl shadow-xl w-full"
               />
@@ -141,7 +141,7 @@ export default function About() {
       <section className="py-20 lg:py-28 relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/__generating__/img_3452b87eba90.png"
+            src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/e70bf6621_generated_3cd41e75.png"
             alt="Modern pediatric office"
             className="w-full h-full object-cover"
           />

@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/__generating__/img_9aa219ddfd0c.png"
+          src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/7e7563c91_generated_bc4cda69.png"
           alt="Pediatrician caring for a child in a warm, modern office"
           className="w-full h-full object-cover"
         />

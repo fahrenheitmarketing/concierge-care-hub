@@ -47,7 +47,7 @@ export default function ProblemSection() {
 
           <div className="relative">
             <img
-              src="/__generating__/img_0e14d2db0a29.png"
+              src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/fb027559f_generated_b9e30b6d.png"
               alt="Happy mother and child"
               className="rounded-2xl shadow-2xl w-full"
             />
