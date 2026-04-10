@@ -7,11 +7,11 @@ export default function Footer() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/17e869947_patterns.png')`,
+          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/d43b927b3_intricate-geometric-pattern-stockcake.jpg')`,
           backgroundSize: '400px',
           backgroundRepeat: 'repeat',
           filter: 'invert(1)',
-          opacity: 0.02,
+          opacity: 0.05,
         }}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
