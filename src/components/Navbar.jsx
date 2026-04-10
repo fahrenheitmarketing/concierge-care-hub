@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -9,10 +9,72 @@ const navLinks = [
   { label: "How It Works", to: "/how-it-works" },
   { label: "Membership", to: "/membership" },
   { label: "Services", to: "/services" },
-  { label: "About", to: "/about" },
-  { label: "FAQs", to: "/faqs" },
-  { label: "Resources", to: "/resources" },
+  {
+    label: "About",
+    to: "/about",
+    dropdown: [
+      { label: "FAQs", to: "/faqs" },
+      { label: "Resources", to: "/resources" },
+    ],
+  },
 ];
+
+function DropdownNav({ link, currentPath }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+  const isActive = currentPath === link.to || link.dropdown.some(d => currentPath === d.to);
+
+  useEffect(() => {
+    const handler = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative group" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+      <Link
+        to={link.to}
+        className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-widest transition-colors inline-flex items-center gap-1 ${
+          isActive ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
+        }`}
+      >
+        {link.label}
+        <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+        <span
+          className="absolute bottom-0 left-0 h-0.5 transition-all duration-300 ease-out"
+          style={{ backgroundColor: '#6b8e23', width: isActive ? '100%' : '0%' }}
+        />
+        <span
+          className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 ease-out"
+          style={{ backgroundColor: '#6b8e23' }}
+        />
+      </Link>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: -4 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -4 }}
+            transition={{ duration: 0.15 }}
+            className="absolute top-full left-0 mt-1 bg-card border border-border rounded-xl shadow-lg overflow-hidden min-w-[160px] z-50"
+          >
+            {link.dropdown.map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                className={`block px-4 py-3 text-xs font-semibold uppercase tracking-widest transition-colors hover:bg-muted ${
+                  currentPath === item.to ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -44,30 +106,34 @@ export default function Navbar() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <Link
-                key={link.to}
-                to={link.to}
-                className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-widest transition-colors group ${
-                  location.pathname === link.to
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {link.label}
-                <span
-                  className="absolute bottom-0 left-0 h-0.5 transition-all duration-300 ease-out"
-                  style={{
-                    backgroundColor: '#6b8e23',
-                    width: location.pathname === link.to ? '100%' : '0%',
-                  }}
-                />
-                <span
-                  className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 ease-out"
-                  style={{ backgroundColor: '#6b8e23' }}
-                />
-              </Link>
-            ))}
+            {navLinks.map((link) =>
+              link.dropdown ? (
+                <DropdownNav key={link.to} link={link} currentPath={location.pathname} />
+              ) : (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-widest transition-colors group ${
+                    location.pathname === link.to
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  {link.label}
+                  <span
+                    className="absolute bottom-0 left-0 h-0.5 transition-all duration-300 ease-out"
+                    style={{
+                      backgroundColor: '#6b8e23',
+                      width: location.pathname === link.to ? '100%' : '0%',
+                    }}
+                  />
+                  <span
+                    className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 ease-out"
+                    style={{ backgroundColor: '#6b8e23' }}
+                  />
+                </Link>
+              )
+            )}
             </nav>
 
           <div className="hidden lg:flex items-center gap-3">
