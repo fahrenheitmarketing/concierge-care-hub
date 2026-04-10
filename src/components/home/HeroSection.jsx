@@ -15,6 +15,12 @@ export default function HeroSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-foreground/20" />
       </div>
+      <img
+        src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/899ed8b3b_docspic.jpg"
+        alt="Dr. Patricia Florentino Pedraza"
+        className="absolute left-0 bottom-0 h-full object-cover"
+        style={{ width: '30%', maxWidth: '400px', objectPosition: 'center' }}
+      />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-40">
         <motion.div
