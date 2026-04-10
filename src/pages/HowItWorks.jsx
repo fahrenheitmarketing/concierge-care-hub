@@ -82,8 +82,8 @@ export default function HowItWorks() {
               <img
                 src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/dd80c5bc3_generated_image.png"
                 alt="Doctor during a house call visit"
-                className="rounded-2xl shadow-xl w-full object-cover object-top"
-                style={{ height: '500px' }}
+                className="rounded-2xl shadow-xl w-full object-cover"
+                style={{ height: '500px', objectPosition: '50% 20%' }}
               />
             </div>
             <div>
