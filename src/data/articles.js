@@ -189,6 +189,200 @@ export const articles = [
     ],
     relatedSlugs: ["childhood-vaccinations-parents-guide", "newborn-essentials-first-30-days", "developmental-milestones-0-5"],
   },
+  {
+    slug: "managing-childhood-allergies",
+    title: "Managing Childhood Allergies: What Every Parent Should Know",
+    category: "Allergies",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1200&q=80",
+    excerpt: "From food allergies to seasonal hay fever, here's how to identify, manage, and advocate for your allergic child.",
+    content: [
+      {
+        heading: "Types of Allergies in Children",
+        body: "Childhood allergies fall into several categories: food allergies (peanuts, tree nuts, milk, eggs, wheat, soy, fish, and shellfish account for 90% of reactions), environmental allergies (pollen, dust mites, pet dander, mold), skin allergies (eczema, contact dermatitis, hives), and insect sting allergies. Each type requires a somewhat different management approach.",
+      },
+      {
+        heading: "Recognizing an Allergic Reaction",
+        body: "Mild reactions include hives, itching, a runny nose, or watery eyes. Moderate reactions may involve swelling, vomiting, or widespread hives. Anaphylaxis — a life-threatening reaction — includes throat tightening, difficulty breathing, a sudden drop in blood pressure, and loss of consciousness. Anaphylaxis requires immediate epinephrine and 911.",
+      },
+      {
+        heading: "Food Allergy Prevention: What the Science Says",
+        body: "Research has dramatically changed our guidance on food allergy prevention. We now know that early introduction of allergenic foods — particularly peanuts — between 4–11 months significantly reduces the risk of developing an allergy. The old advice to delay these foods was wrong. Talk to us before your baby starts solids so we can create the right introduction plan.",
+      },
+      {
+        heading: "Living With a Food Allergy",
+        body: "If your child has a confirmed food allergy, the cornerstones of management are strict avoidance, reading every food label, educating caregivers and schools, and always carrying two epinephrine auto-injectors (EpiPens). An allergy action plan — a written document detailing symptoms and response steps — should go everywhere your child goes.",
+      },
+      {
+        heading: "Treating Seasonal and Environmental Allergies",
+        body: "For seasonal allergies, daily non-sedating antihistamines (cetirizine, loratadine) are first-line treatment. Nasal steroid sprays are highly effective for persistent nasal symptoms. Allergen immunotherapy (allergy shots or sublingual drops) can provide long-term desensitization and is worth considering for children with significant, persistent symptoms.",
+      },
+      {
+        heading: "When to See a Specialist",
+        body: "We can manage most allergy concerns directly, but we may refer to a pediatric allergist for formal allergy testing, management of severe or complex food allergies, consideration of immunotherapy, or anaphylaxis that occurred without a clear trigger. Testing is most reliable after 6–12 months of age.",
+      },
+    ],
+    relatedSlugs: ["when-to-call-pediatrician-vs-er", "nutrition-basics-growing-kids", "childhood-vaccinations-parents-guide"],
+  },
+  {
+    slug: "screen-time-and-children",
+    title: "Screen Time and Children: Finding the Right Balance",
+    category: "Development",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    excerpt: "Screen time is unavoidable in modern family life. Here's what the research actually says — and how to make it work for your family.",
+    content: [
+      {
+        heading: "What the Research Actually Shows",
+        body: "The science on screen time is more nuanced than headlines suggest. The concern isn't screen time itself — it's what screens displace. When screens replace sleep, physical activity, face-to-face interaction, and reading, development suffers. Used intentionally and in moderation, screens can be neutral or even beneficial.",
+      },
+      {
+        heading: "AAP Guidelines by Age",
+        body: "Under 18 months: avoid screens other than video chatting. 18–24 months: if introduced, watch together and choose high-quality content. Ages 2–5: limit to 1 hour per day of high-quality programming. Ages 6 and up: place consistent limits on time and ensure screens don't displace sleep, exercise, or homework.",
+      },
+      {
+        heading: "Not All Screen Time Is Equal",
+        body: "A 4-year-old video chatting with grandparents is fundamentally different from a 4-year-old watching autoplay YouTube videos alone. Co-viewing, discussing what's on screen, and choosing educational, age-appropriate content transforms passive consumption into an interactive learning experience.",
+      },
+      {
+        heading: "Protecting Sleep",
+        body: "The single most evidence-backed screen rule is simple: no screens in the bedroom, and no screens for at least one hour before bed. Blue light suppresses melatonin production. Engaging content activates the brain. Poor sleep affects mood, behavior, learning, and immune function — and screen use before bed is a leading driver of inadequate sleep in children of all ages.",
+      },
+      {
+        heading: "Creating a Family Media Plan",
+        body: "The AAP's Family Media Plan tool (available at healthychildren.org) lets you customize screen time rules for your family's values and schedule. The most important element isn't the number of minutes — it's consistency, intentionality, and regular family conversations about what your children are watching and why.",
+      },
+    ],
+    relatedSlugs: ["developmental-milestones-0-5", "sleep-training-gentle-approach", "mental-health-children"],
+  },
+  {
+    slug: "mental-health-children",
+    title: "Children's Mental Health: Recognizing the Signs and Getting Help",
+    category: "Mental Health",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80",
+    excerpt: "Anxiety, ADHD, and depression are more common in children than many parents realize. Here's what to watch for and how to help.",
+    content: [
+      {
+        heading: "Mental Health Is Health",
+        body: "1 in 5 children in the United States experiences a mental health condition in any given year, yet fewer than half receive treatment. Pediatric mental health isn't separate from physical health — the two are deeply intertwined. Your child's mental wellbeing is always on our radar at every visit.",
+      },
+      {
+        heading: "Anxiety in Children",
+        body: "Anxiety is the most common childhood mental health condition. Some anxiety is normal and healthy — it's the brain's threat-detection system doing its job. But when anxiety is persistent, disproportionate to the situation, and interferes with daily life, it needs attention. Signs include school refusal, frequent stomachaches or headaches with no medical cause, excessive clinginess, sleep difficulties, and constant reassurance-seeking.",
+      },
+      {
+        heading: "Recognizing ADHD",
+        body: "ADHD is characterized by inattention, hyperactivity, and impulsivity that is developmentally inappropriate and present in multiple settings. Key signs include difficulty sustaining attention on tasks, frequent forgetfulness, losing things, inability to sit still, and acting without thinking. ADHD looks different in girls than boys — girls are more likely to present primarily with inattention, which is often missed.",
+      },
+      {
+        heading: "Depression Is Not Just Sadness",
+        body: "In children, depression often presents as irritability rather than sadness. Other signs include withdrawal from friends and activities they used to enjoy, changes in sleep and appetite, declining school performance, fatigue, feelings of worthlessness, and in older children, thoughts of death or self-harm. If your child mentions wanting to hurt themselves, take it seriously and contact us immediately.",
+      },
+      {
+        heading: "What You Can Do",
+        body: "Start by creating a home environment where emotions are discussed openly and without judgment. Validate your child's feelings before trying to fix them. Maintain consistent routines, prioritize sleep and physical activity, and limit social media for older children. Most importantly — don't wait. Early intervention is far more effective than treating problems that have festered for years.",
+      },
+      {
+        heading: "How We Can Help",
+        body: "We screen for mental health concerns at every well visit and are trained to recognize early warning signs. We can provide initial evaluation, guidance, and referrals to child psychologists or psychiatrists when needed. Our direct-access model means you don't have to wait for the next annual physical to bring up a concern.",
+      },
+    ],
+    relatedSlugs: ["screen-time-and-children", "developmental-milestones-0-5", "when-to-call-pediatrician-vs-er"],
+  },
+  {
+    slug: "keeping-kids-active-exercise-guide",
+    title: "Keeping Kids Active: An Age-by-Age Exercise Guide",
+    category: "Wellness",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1551966775-a4ddc8df052b?w=1200&q=80",
+    excerpt: "Physical activity is one of the most powerful medicines for growing children. Here's how much they need — and how to make it happen.",
+    content: [
+      {
+        heading: "Why Movement Matters",
+        body: "Regular physical activity in childhood builds stronger bones and muscles, supports healthy weight, improves sleep quality, reduces anxiety and depression, sharpens focus and academic performance, and establishes lifelong habits. No medication produces all of those benefits simultaneously — and exercise is free.",
+      },
+      {
+        heading: "How Much Activity Do Kids Need?",
+        body: "The guidelines are straightforward: children aged 3–5 should be physically active throughout the day with at least 3 hours of movement total. Children and adolescents aged 6–17 need at least 60 minutes of moderate-to-vigorous physical activity every day. Most of this should be aerobic, with muscle- and bone-strengthening activities at least 3 days per week.",
+      },
+      {
+        heading: "Babies and Toddlers (0–3 Years)",
+        body: "For infants, tummy time from day one builds the strength that leads to crawling and walking. Avoid keeping babies confined in bouncers, carriers, or swings for extended periods. Toddlers are naturally active — give them unstructured outdoor time, resist the urge to over-schedule, and let them climb, run, and explore freely.",
+      },
+      {
+        heading: "School-Age Children (6–12 Years)",
+        body: "This is the prime window to build a love of movement. Involve children in choosing activities they genuinely enjoy — sport enjoyment is the strongest predictor of long-term activity. Organized sports offer wonderful benefits but aren't necessary; backyard play, biking, swimming, and dancing all count. Limit sedentary leisure time.",
+      },
+      {
+        heading: "Teenagers",
+        body: "Physical activity often drops sharply in adolescence, especially in girls. Competition for time is fierce. Help teens find activities that connect exercise with something they care about — social connection, stress relief, or identity. Even brief activity — a 20-minute walk — has measurable mental health benefits. Encourage movement without making weight or appearance the motivation.",
+      },
+    ],
+    relatedSlugs: ["nutrition-basics-growing-kids", "mental-health-children", "screen-time-and-children"],
+  },
+  {
+    slug: "fever-in-children-complete-guide",
+    title: "Fever in Children: A Complete Parent's Guide",
+    category: "Illness & Symptoms",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80",
+    excerpt: "Fever is one of the most common reasons parents call us. Here's everything you need to know to handle it confidently.",
+    content: [
+      {
+        heading: "What Is a Fever?",
+        body: "A fever is a body temperature of 100.4°F (38°C) or higher. It is not a disease — it is the body's natural, adaptive response to infection. Fever activates the immune system, slows the reproduction of many viruses and bacteria, and signals that the body is fighting. In most cases, treating the fever is optional; treating your child's discomfort is what matters.",
+      },
+      {
+        heading: "How to Take an Accurate Temperature",
+        body: "Rectal temperatures are most accurate in infants under 3 months and are the standard for this age group. Temporal artery (forehead) and tympanic (ear) thermometers are convenient and accurate enough for children over 3 months. Oral temperatures work well for children over 4–5 years. Axillary (armpit) temperatures are the least accurate — add 0.5°F for a rough estimate if that's all you have.",
+      },
+      {
+        heading: "Treating Fever: When and How",
+        body: "Fever-reducing medications (acetaminophen for all ages; ibuprofen for 6 months and older) are appropriate when your child seems uncomfortable or distressed. Dose by weight, not age. Do not give aspirin to children. Do not alternate acetaminophen and ibuprofen unless instructed. Lukewarm baths can help with comfort. Dress lightly, offer fluids frequently, and let your child rest.",
+      },
+      {
+        heading: "When to Contact Us",
+        body: "Always call for: any fever in a baby under 3 months; fever over 104°F; fever lasting more than 3 days; fever with rash, stiff neck, severe headache, difficulty breathing, or persistent vomiting; a child who seems very ill, is inconsolable, or is difficult to wake. As a concierge member, you can text or call us anytime — day or night.",
+      },
+      {
+        heading: "Fever Myths, Debunked",
+        body: "Myth: fever causes brain damage. Fact: only extreme hyperthermia (above 107°F from external heat) causes brain injury — not fever from infection. Myth: you must bring the temperature down to normal. Fact: comfort is the goal, not a number. Myth: fever always means something serious. Fact: most childhood fevers are caused by minor viral infections that resolve on their own within a few days.",
+      },
+    ],
+    relatedSlugs: ["when-to-call-pediatrician-vs-er", "childhood-vaccinations-parents-guide", "managing-childhood-allergies"],
+  },
+  {
+    slug: "dental-health-for-children",
+    title: "Dental Health for Children: Starting Strong from the First Tooth",
+    category: "Wellness",
+    readTime: "4 min read",
+    image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=1200&q=80",
+    excerpt: "Cavities are the most common chronic childhood disease — yet they're almost entirely preventable. Here's how to protect your child's smile.",
+    content: [
+      {
+        heading: "Why Baby Teeth Matter",
+        body: "Many parents assume baby teeth don't matter much since they'll fall out anyway. This is a harmful myth. Baby teeth hold space for permanent teeth, support proper speech development, enable chewing and nutrition, and impact self-esteem. Untreated cavities in baby teeth can be painful, affect sleep and learning, and lead to serious infections.",
+      },
+      {
+        heading: "Before the First Tooth",
+        body: "Oral care starts before teeth appear. After feedings, gently wipe your baby's gums with a clean, damp cloth. This removes bacteria and builds the habit of mouth cleaning. Avoid putting your baby to bed with a bottle of milk or juice — this is one of the leading causes of early childhood cavities.",
+      },
+      {
+        heading: "Brushing: When, How, and With What",
+        body: "Start brushing as soon as the first tooth appears, using a soft infant toothbrush and a smear of fluoride toothpaste (the size of a grain of rice). At age 3, increase to a pea-sized amount. Brush for 2 minutes, twice a day — morning and especially before bed. Children need help brushing until around age 7–8, when their fine motor skills are sufficient to do it effectively on their own.",
+      },
+      {
+        heading: "Fluoride: Safe, Effective, Essential",
+        body: "Fluoride is one of the most important tools in cavity prevention. It strengthens tooth enamel and can reverse early decay. Fluoride in community water supplies and toothpaste is safe at recommended levels — the evidence on this is overwhelming. If your local water is not fluoridated, we may recommend fluoride supplements.",
+      },
+      {
+        heading: "First Dental Visit and Ongoing Care",
+        body: "The American Academy of Pediatric Dentistry recommends the first dental visit by age 1, or within 6 months of the first tooth. Regular checkups every 6 months allow early detection and treatment. Limit sugary drinks and snacks — particularly sticky, prolonged-contact sweets. And remember: we also review your child's dental health at well visits and are happy to answer questions anytime.",
+      },
+    ],
+    relatedSlugs: ["nutrition-basics-growing-kids", "newborn-essentials-first-30-days", "keeping-kids-active-exercise-guide"],
+  },
 ];
 
 export function getArticleBySlug(slug) {
