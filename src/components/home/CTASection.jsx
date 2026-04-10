@@ -1,0 +1,45 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+
+export default function CTASection() {
+  return (
+    <section className="py-20 lg:py-28 bg-primary relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-background rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
+      </div>
+
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-primary-foreground mb-6">
+          Your Child Deserves More Than Average Care
+        </h2>
+        <p className="text-lg text-primary-foreground/75 leading-relaxed mb-10 max-w-2xl mx-auto">
+          Membership spots are limited to ensure every family gets the attention
+          they deserve. Schedule a free consultation to learn how concierge
+          pediatrics can work for your family.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link to="/contact">
+            <Button
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-8 h-14 text-base font-medium gap-2"
+            >
+              Schedule a Free Consultation
+              <ArrowRight className="w-4 h-4" />
+            </Button>
+          </Link>
+          <Link to="/membership">
+            <Button
+              size="lg"
+              variant="outline"
+              className="rounded-full px-8 h-14 text-base font-medium border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+            >
+              View Membership Options
+            </Button>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
