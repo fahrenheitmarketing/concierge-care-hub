@@ -31,11 +31,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-card/95 backdrop-blur-md shadow-sm border-b border-border"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-card/75 backdrop-blur-md shadow-sm border-b border-border"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -43,7 +39,7 @@ export default function Navbar() {
             <img
               src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/8102bbb5f_concierge-pediatrics-logo-768x282.png"
               alt="Concierge Pediatrics"
-              className="h-10 lg:h-12 w-auto"
+              className="h-14 lg:h-16 w-auto"
             />
           </Link>
 
