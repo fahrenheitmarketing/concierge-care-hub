@@ -128,7 +128,7 @@ export default function HowItWorks() {
         style={{
           backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/1a4e4043a_generated_image.png')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center right',
+          backgroundPosition: 'top center',
         }}
       />
       <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
