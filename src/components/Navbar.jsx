@@ -48,16 +48,27 @@ export default function Navbar() {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+                className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-widest transition-colors group ${
                   location.pathname === link.to
-                    ? "text-primary bg-primary/5"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
+                    ? "text-foreground"
+                    : "text-muted-foreground hover:text-foreground"
                 }`}
               >
                 {link.label}
+                <span
+                  className="absolute bottom-0 left-0 h-0.5 transition-all duration-300 ease-out"
+                  style={{
+                    backgroundColor: '#6b8e23',
+                    width: location.pathname === link.to ? '100%' : '0%',
+                  }}
+                />
+                <span
+                  className="absolute bottom-0 left-0 h-0.5 w-0 group-hover:w-full transition-all duration-300 ease-out"
+                  style={{ backgroundColor: '#6b8e23' }}
+                />
               </Link>
             ))}
-          </nav>
+            </nav>
 
           <div className="hidden lg:flex items-center gap-3">
             <a
