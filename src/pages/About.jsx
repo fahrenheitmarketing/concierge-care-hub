@@ -136,7 +136,7 @@ export default function About() {
             alt="Dr. Sarah Johnson in pediatric office"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-foreground/75" />
+          <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
         </div>
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl sm:text-4xl text-background mb-6">
