@@ -11,8 +11,8 @@ export default function CTASection() {
           backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/937233012_v1043-062a.jpg')`,
           backgroundSize: '400px',
           backgroundRepeat: 'repeat',
-          filter: 'grayscale(1) brightness(0.5)',
-          opacity: 0.4,
+          filter: 'grayscale(1) brightness(0)',
+          opacity: 0.6,
         }}
       />
 
