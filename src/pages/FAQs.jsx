@@ -135,7 +135,7 @@ export default function FAQs() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/9f8260ebe_generated_image.png')`,
+            backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/15e9f8b29_generated_image.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'right center',
           }}
