@@ -8,10 +8,10 @@ export default function CTASection() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/eb8c5ba9a_generated_image.png')`,
+          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/1a4e4043a_generated_image.png')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          opacity: 0.35,
+          backgroundPosition: 'center right',
+          opacity: 0.45,
         }}
       />
 
