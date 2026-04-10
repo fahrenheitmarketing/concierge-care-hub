@@ -15,7 +15,7 @@ export default function Resources() {
             backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/191629ec4_intricate-geometric-pattern-stockcake.jpg')`,
             backgroundSize: '400px',
             backgroundRepeat: 'repeat',
-            opacity: 0.02,
+            opacity: 0.04,
           }}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
