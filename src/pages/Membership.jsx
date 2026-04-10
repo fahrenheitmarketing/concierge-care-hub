@@ -171,7 +171,7 @@ export default function Membership() {
           style={{
             backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/4c85a2098_generated_image.png')`,
             backgroundSize: 'cover',
-            backgroundPosition: 'right 75%',
+            backgroundPosition: 'right 35%',
           }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'hsl(79 58% 35%)', opacity: 0.55 }} />
