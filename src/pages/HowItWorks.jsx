@@ -80,7 +80,7 @@ export default function HowItWorks() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/a1ee3b9be_generated_21447d7b.png"
+                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/dd80c5bc3_generated_image.png"
                 alt="Doctor during a house call visit"
                 className="rounded-2xl shadow-xl w-full"
               />
