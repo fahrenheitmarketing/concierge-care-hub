@@ -131,24 +131,35 @@ export default function FAQs() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-28 bg-primary text-center">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6">
-            Still Have Questions?
-          </h2>
-          <p className="text-lg text-primary-foreground/75 mb-10">
-            We'd love to chat. Schedule a free consultation and we'll answer
-            every question in person.
-          </p>
-          <Link to="/contact">
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-8 h-14 text-base font-medium gap-2"
-            >
-              Schedule a Free Consultation
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-          </Link>
+      <section className="py-20 lg:py-28 bg-primary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h2 className="font-heading text-3xl sm:text-4xl text-primary-foreground mb-6">
+                Still Have Questions?
+              </h2>
+              <p className="text-lg text-primary-foreground/75 mb-10">
+                We'd love to chat. Schedule a free consultation and we'll answer
+                every question in person.
+              </p>
+              <Link to="/contact">
+                <Button
+                  size="lg"
+                  className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full px-8 h-14 text-base font-medium gap-2"
+                >
+                  Schedule a Free Consultation
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </Link>
+            </div>
+            <div className="hidden lg:block">
+              <img
+                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/af145da29_docspic.jpg"
+                alt="Dr. Patricia Florentino Pedraza"
+                className="rounded-2xl shadow-xl w-full"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </>
