@@ -132,8 +132,8 @@ export default function About() {
       <section className="py-20 lg:py-28 relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/e70bf6621_generated_3cd41e75.png"
-            alt="Modern pediatric office"
+            src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/ff0a23258_Gemini_Generated_Image_5p0f0w5p0f0w5p0f.png"
+            alt="Dr. Sarah Johnson in pediatric office"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-foreground/75" />
