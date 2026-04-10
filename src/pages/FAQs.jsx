@@ -154,8 +154,8 @@ export default function FAQs() {
             </div>
             <div className="hidden lg:block">
               <img
-                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/af145da29_docspic.jpg"
-                alt="Dr. Patricia Florentino Pedraza"
+                src="https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/9362fcb37_generated_image.png"
+                alt="Dr. Patricia Florentino Pedraza at desk"
                 className="rounded-2xl shadow-xl w-full"
               />
             </div>
