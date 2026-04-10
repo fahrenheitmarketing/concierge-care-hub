@@ -57,7 +57,7 @@ export default function DifferenceSection() {
                 transition={{ delay: i * 0.08 }}
                 className="bg-card rounded-2xl p-8 border border-border hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 transition-transform duration-200 group-hover:scale-150">
                   <Icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-heading text-xl text-foreground mb-2">

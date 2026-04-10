@@ -88,7 +88,7 @@ export default function Services() {
                   transition={{ delay: i * 0.06 }}
                   className="bg-card rounded-2xl p-6 border border-border hover:shadow-lg transition-shadow group"
                 >
-                  <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/15 transition-colors">
+                  <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/15 group-hover:scale-150 transition-all duration-200">
                     <Icon className="w-5 h-5 text-primary" />
                   </div>
                   <h3 className="font-heading text-lg text-foreground mb-1">
