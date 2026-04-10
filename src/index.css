@@ -85,6 +85,14 @@
     @apply border-border outline-ring/50;
   }
 
+  svg {
+    transition: transform 0.2s ease;
+  }
+
+  svg:hover {
+    transform: scale(1.5);
+  }
+
   body {
     @apply bg-background text-foreground font-body;
   }
