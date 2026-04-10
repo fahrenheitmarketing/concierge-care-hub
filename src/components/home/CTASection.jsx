@@ -5,16 +5,6 @@ import { ArrowRight } from "lucide-react";
 export default function CTASection() {
   return (
     <section className="py-20 lg:py-28 relative overflow-hidden" style={{ backgroundColor: '#6b8e23' }}>
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          backgroundImage: `url('https://media.base44.com/images/public/69d83c5355efc3ff23bd0660/937233012_v1043-062a.jpg')`,
-          backgroundSize: '400px',
-          backgroundRepeat: 'repeat',
-          filter: 'grayscale(1) invert(1)',
-          opacity: 0.15,
-        }}
-      />
 
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-primary-foreground mb-6">
